@@ -29,7 +29,7 @@ class FlaskrTestCase(unittest.TestCase):
         # Replace UNH698 Website with the text you expect to see on you topic page
         assert b'awesome' in rv.data
 		
-	def test_link_to_my_page2(self):
+    def test_link_to_my_page2(self):
         rv = self.app.get('/')  
         # Search the page contents for the link to your topic page 
         # Replace xxxxxxxxxxxx with text you'd expect to see on your main page that links to your subpage

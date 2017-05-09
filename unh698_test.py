@@ -21,7 +21,7 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get('/')  
         # Search the page contents for the link to your topic page 
         # Replace xxxxxxxxxxxx with text you'd expect to see on your main page that links to your subpage
-        assert b'Faruks Topic 1' in rv.data 
+        assert b'Faruks Topic #1' in rv.data 
 		
     def test_my_topic1(self):
         # Replace '/' with the page path you want to make
@@ -33,7 +33,7 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get('/')  
         # Search the page contents for the link to your topic page 
         # Replace xxxxxxxxxxxx with text you'd expect to see on your main page that links to your subpage
-        assert b'Faruks Topic 2' in rv.data 
+        assert b'Faruks Topic #2' in rv.data 
 		
     def test_my_topic2(self):
         # Replace '/' with the page path you want to make

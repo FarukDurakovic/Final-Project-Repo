@@ -8,11 +8,11 @@ setup_metrics(app)
 def Main_Page():
     return render_template('Main_Page.html')
 	
-@app.route("/@1")
+@app.route("/")
 def Sub_Page1():
     return render_template('Sub_Page1.html')
 	
-@app.route("/#2")
+@app.route("/")
 def Sub_Page1():
     return render_template('Sub_Page2.html')
 	

@@ -13,7 +13,7 @@ def Sub_Page1():
     return render_template('Sub_Page1.html')
 	
 @app.route("/Sub_Page2")
-def Sub_Page1():
+def Sub_Page2():
     return render_template('Sub_Page2.html')
 	
 if __name__ == "__main__":

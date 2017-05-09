@@ -39,7 +39,7 @@ class FlaskrTestCase(unittest.TestCase):
         # Replace '/' with the page path you want to make
         rv = self.app.get('/Sub_Page2')  
         # Replace UNH698 Website with the text you expect to see on you topic page
-        assert b'Nothing Here...' in rv.data
+        assert b'has cats...' in rv.data
 		
 if __name__ == '__main__':
     unittest.main()

@@ -25,9 +25,9 @@ class FlaskrTestCase(unittest.TestCase):
 		
     def test_my_topic1(self):
         # Replace '/' with the page path you want to make
-        rv = self.app.get('/#1')  
+        rv = self.app.get('/Sub_Page1')  
         # Replace UNH698 Website with the text you expect to see on you topic page
-        assert b'awesome' in rv.data
+        assert b'Here Either...' in rv.data
 		
     def test_link_to_my_page2(self):
         rv = self.app.get('/')  
@@ -37,7 +37,7 @@ class FlaskrTestCase(unittest.TestCase):
 		
     def test_my_topic2(self):
         # Replace '/' with the page path you want to make
-        rv = self.app.get('/#2')  
+        rv = self.app.get('/Sub_Page2')  
         # Replace UNH698 Website with the text you expect to see on you topic page
         assert b'Nothing Here...' in rv.data
 		

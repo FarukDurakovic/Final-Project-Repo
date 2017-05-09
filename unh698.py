@@ -12,7 +12,7 @@ def Main_Page():
 def Sub_Page1():
     return render_template('Sub_Page1.html')
 
-    @app.route("/#2")
+@app.route("/#2")
 def Sub_Page1():
     return render_template('Sub_Page2.html')
 	

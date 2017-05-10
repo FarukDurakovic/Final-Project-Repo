@@ -17,17 +17,29 @@ class FlaskrTestCase(unittest.TestCase):
         # Chech that the page contians the desired phrase
         assert b'UNH698 Website' in rv.data
 		
-    def test_link_to_my_page(self):
+    def test_link_to_my_page1(self):
         rv = self.app.get('/')  
         # Search the page contents for the link to your topic page 
         # Replace xxxxxxxxxxxx with text you'd expect to see on your main page that links to your subpage
-        assert b'Faruks Topic: Professor Couture' in rv.data 
+        assert b'Faruks Topic #1' in rv.data 
 		
-    def test_my_topic(self):
+    def test_my_topic1(self):
         # Replace '/' with the page path you want to make
-        rv = self.app.get('/Topic')  
+        rv = self.app.get('/Sub_Page1')  
         # Replace UNH698 Website with the text you expect to see on you topic page
-        assert b'awesome' in rv.data
+        assert b'Here Either...' in rv.data
+		
+    def test_link_to_my_page2(self):
+        rv = self.app.get('/')  
+        # Search the page contents for the link to your topic page 
+        # Replace xxxxxxxxxxxx with text you'd expect to see on your main page that links to your subpage
+        assert b'Faruks Topic #2' in rv.data 
+		
+    def test_my_topic2(self):
+        # Replace '/' with the page path you want to make
+        rv = self.app.get('/Sub_Page2')  
+        # Replace UNH698 Website with the text you expect to see on you topic page
+        assert b'has cats...' in rv.data
 		
 if __name__ == '__main__':
     unittest.main()

@@ -1,5 +1,5 @@
 ---
 # Here we define variables in a key: value setting
 # that will be used in the unh698 role.
-unh698_image: farukdurakovic/Final-Project-Repo
+unh698_image: farukdurakovic/final-project-repo
 unh698_command: python3 unh698.py

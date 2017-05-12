@@ -16,12 +16,23 @@ The first line is always the hardest - Faruk Durakovic
 
 ### Added
 
-*ansible files to final-project-repo
+*Ansible files to final-project-repo
+
 *Cloned final-project-repo to aws server
 
 ## 0.0.2 
 
+### Fixed
 
+*yml files should now use correct information
 
+## 0.0.3
 
+## Added
+
+*New text added to Sub_Page1 and 2
+
+## Changed
+
+*main.yml now uses localhost as opposed to the ip address of the aws server
 

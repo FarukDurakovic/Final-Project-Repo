@@ -69,18 +69,14 @@
  * And finally, the <a href=...> ... </a> define the link that will appear in the url bar as well as the name that will appear onscreen in the actual webpage. In this case, the url will display .../Sub_Page1, and the webpage will have a link that says Faruks Topic #1 which will take me to Sub_Page1.
 
  * The only things different in the Sub_Page html files is that instead of using the <a href=...> ... </a>, you can just type anything between the two <body> fields and the test will appear onscreen!
-
-<<<<<<< HEAD
+ 
  * ![Main_Page image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File6.PNG)
  
  * ![Sub_Page1 image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File7.PNG)
  
  * ![Sub_Page2 image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File8.PNG)
- 
-## deploy-website-staging/production.yml
-=======
+
 ## deploy-website-production/staging.yml
->>>>>>> efd9f76cd930b2d2e10c5715cfee399464e230ef
 
  * What these files do is allow the webpages to be run from specific snapshots in your code based on what tag you used for them. 
 

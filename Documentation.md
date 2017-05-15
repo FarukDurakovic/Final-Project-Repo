@@ -23,6 +23,8 @@
  * The next three code blocks are defining the methods for the three different webpages, specifically that ones I labeled Main_Page and Sub_Page1 and 2.
 
  * The file block is an if statement that runs a debug if the file that was imported shared the same "__main__" name.
+ 
+ ![unh698.py image](C:\Users\Faruk\Desktop)
 
 ## UNH698_test.py
 

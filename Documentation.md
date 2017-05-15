@@ -24,7 +24,7 @@
 
  * The file block is an if statement that runs a debug if the file that was imported shared the same "__main__" name.
  
- * ![unh698.py image](C:\Users\Faruk\Desktop\File1.PNG)
+ * ![unh698.py image](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjQ_rbXivLTAhUEl1QKHQjKBqMQjBwIBA&url=https%3A%2F%2Fwww.planwallpaper.com%2Fstatic%2Fimages%2Fdesktop-year-of-the-tiger-images-wallpaper.jpg&psig=AFQjCNH8p8uL61h5_Ck4ZQwBHen_8jME6w&ust=1494944042208991)
 
 ## UNH698_test.py
 

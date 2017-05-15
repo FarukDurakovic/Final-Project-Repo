@@ -24,7 +24,7 @@
 
  * The file block is an if statement that runs a debug if the file that was imported shared the same "__main__" name.
  
- ![unh698.py image](C:\Users\Faruk\Desktop)
+ * ![unh698.py image](C:\Users\Faruk\Desktop\File1.PNG)
 
 ## UNH698_test.py
 

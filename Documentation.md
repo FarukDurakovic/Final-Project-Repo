@@ -24,8 +24,8 @@
 
  * The file block is an if statement that runs a debug if the file that was imported shared the same "__main__" name.
  
- * ![unh698.py image](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjQ_rbXivLTAhUEl1QKHQjKBqMQjBwIBA&url=https%3A%2F%2Fwww.planwallpaper.com%2Fstatic%2Fimages%2Fdesktop-year-of-the-tiger-images-wallpaper.jpg&psig=AFQjCNH8p8uL61h5_Ck4ZQwBHen_8jME6w&ust=1494944042208991)
-
+ * ![unh698.py image]()
+ 
 ## UNH698_test.py
 
  * The unh698_test.py file is where the the testing occurs... duh!
@@ -40,6 +40,8 @@
 
  * For example, the code in: def test_my_topic1(self): / rv = self.app.get('/Sub_Page1') / assert b'Here Either...' in rv.data, is creating a testcase for my first topic, which is Sub_Page1, then the rv or return value sets self.app.get to be the link to my Sub_Page1, and finally the assert looks the the text "Here Either..." which is a phrase used in the Sub_Page.html file.
 
+ ![unh698_test.py image]()
+ 
 ## run_test.sh
 
  * This is a simple one.
@@ -81,6 +83,10 @@
  * The variables are the name of the environment, in this case stagin, the image version, which is the tag you chose, the host port is the port you use to access it, and the container port is the port Flask uses view the server.
 
  * The roles is a subfolder that contains a main.yml file that is referenced and has information for this code.
+
+ * ![Production image]()
+ 
+ * ![Staging image]()
 
 ## configure-host.yml
 
@@ -147,3 +153,5 @@
  * This file does the "math" of the website to see how long it has been running and how many times the page has been accessed.
 
  * This file is very similar to the unh698.py file as it has functions used to collect the data that is being input into the system.
+ 
+ * ![Prometheus Metrics image]()

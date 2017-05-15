@@ -24,7 +24,7 @@
 
  * The file block is an if statement that runs a debug if the file that was imported shared the same "__main__" name.
  
- * ![unh698.py image]()
+ * ![unh698.py image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File1.PNG)
  
 ## UNH698_test.py
 
@@ -40,7 +40,7 @@
 
  * For example, the code in: def test_my_topic1(self): / rv = self.app.get('/Sub_Page1') / assert b'Here Either...' in rv.data, is creating a testcase for my first topic, which is Sub_Page1, then the rv or return value sets self.app.get to be the link to my Sub_Page1, and finally the assert looks the the text "Here Either..." which is a phrase used in the Sub_Page.html file.
 
- ![unh698_test.py image]()
+ * ![unh698_test.py image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File2.PNG)
  
 ## run_test.sh
 
@@ -84,9 +84,9 @@
 
  * The roles is a subfolder that contains a main.yml file that is referenced and has information for this code.
 
- * ![Production image]()
+ * ![Production image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File5.PNG)
  
- * ![Staging image]()
+ * ![Staging image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File4.PNG)
 
 ## configure-host.yml
 
@@ -154,4 +154,4 @@
 
  * This file is very similar to the unh698.py file as it has functions used to collect the data that is being input into the system.
  
- * ![Prometheus Metrics image]()
+ * ![Prometheus Metrics image](https://github.com/FarukDurakovic/Final-Project-Repo/blob/master/images/File3.PNG)
